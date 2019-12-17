@@ -4,67 +4,86 @@
 <head>
   <meta charset="UTF-8">
   <title>Portfolio</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./static/normolize.css">
   <link rel="stylesheet" href="./static/style.css">
 </head>
 
 <body>
-  <div>
-    <h1>Hello everyone!</h1>
-    <p>This is small page for my portfolio.</p>
-    <p>I'm trying learn Frontend. And this is my page. My field for experiments. I'll do my best for become really good developer.
-    </p>
-    <h2>About me</h2>
-    <article>I was born in Russia. Growing up in Yekaterinburg. I'm 9+ years experience Database Administrator. Now I live in Wellington, and learn JavaScript.</article>
-    <h2>Проекты</h2>
-    <ul>
-      <li><a href="https://sadedroot.github.io/582723-sedona-24/">Учебный проект в HTML Academy. Sedona</a></li>
-      <li><a href="https://sadedroot.github.io/582723-keksobooking/">Учебный проект в HTML Academy. Keksobooking</a></li>
-    </ul>
-    <h3>Ссылки на разные интересные статьи</h3>
-    <p>(не то что бы есть особая нужда сохранять их в таком в виде но вдруг.)</p>
+  <div class="container">
+    <aside class="side-menu">
+      <img src="./img/avatar1.jpg" alt="Моя лучшай фотография" class="img__avatar">
+      <h2>Eduard Sadrutdinov</h2>
+      <h3>Frontend developer</h3>
+      <h4>Wellington</h4>
+    </aside>
+
+    <main>
+      <h2>Hello everyone!</h2>
+      <p>This is small page for my portfolio.</p>
+      <p>I'm trying learn Frontend. And this is my page. My field for experiments. I'll do my best for become really good developer.
+      </p>
+      <h2>About me</h2>
+      <article>I was born in Russia. Growing up in Yekaterinburg. I'm 9+ years experience Database Administrator. Now I live in Wellington, and learn JavaScript.</article>
+      <h2>Проекты</h2>
+      <ul>
+        <li><a href="https://sadedroot.github.io/582723-sedona-24/">Учебный проект в HTML Academy. Sedona</a></li>
+        <li><a href="https://sadedroot.github.io/582723-keksobooking/">Учебный проект в HTML Academy. Keksobooking</a></li>
+      </ul>
+      <h3>Ссылки на разные интересные статьи</h3>
+      <p>(не то что бы есть особая нужда сохранять их в таком в виде но вдруг.)</p>
+
+
+      <ul>
+        <li><a href="https://css-live.ru/css/pravilnaya-shpargalka-po-css-kaskadu.html"><img class="img-in-post" src="./img/cascadelarge.png" alt="Таблица каскада"></a></li>
+
+      </ul>
+      <ol>
+        <li><a href="#post1">Пост 1 (12.12.2019)</a></li>
+        <li><a href="#post2">Пост 2 (13.12.2019)</a></li>
+        <li><a href="#post3">Пост 3 (15.12.2019)</a></li>
+        <li><a href="#post4">Пост 4 (15.12.2019)</a></li>
+        <li><a href="#post5">Пост 5 (17.12.2019)</a></li>
+      </ol>
+      <article id="post5">
+        <h2>Post 5, Оформление. Начало.</h2>
+        <img class="img-in-post" src="./img/view-2.jpg" alt="Скриншот проекта. Первый этап HTML">
+        <p>Ну что? Уже лучше?</p>
+        <p>Начал оформление странички. Муторно и долго выбирал, какой формат хочу видеть. Все таки работать когда у тебя уже есть готовый дизайн и версать без дизайны это две большие разницы</p>
+        <p>15.12.2019</p>
+      </article>
+      <article id="post4">
+        <h2>Post 4, Скрин по окончанию HTML части.</h2>
+        <img class="img-in-post" src="./img/view-1.jpg" alt="Скриншот проекта. Первый этап HTML">
+        <p>Простенько но как есть.</p>
+        <p>С завтрашнего дня начинаю прикручивать CSS</p>
+        <p>15.12.2019</p>
+      </article>
+      <article id="post3">
+        <h2>Post 3, Выходные и зачатки планов</h2>
+        <p>Честно про часть текущих проектов я рассказал в первом посте, но не рассказал про будущие задумки. Из того что планирую как не учебный проекты. В условиях инди вэба и стодневки развить собственный сайт до живого состояния. То есть красивую визитку. (А не то что сейчас вы видите. CSS, дизайн все дела. Отдельны вытащить все верстки и учебные проекты. Что бы было что показать. Так же прикурить что то из динамики для иллюстрации скилов. Второе это попробовать сделать небольшое десктопное приложение на JS. (<a href="https://telegra.ph/Kak-bystro-sozdat-desktopnoe-prilozhenie-na-HTML-CSS-i-JavaScript-12-08">вот статья которая меня с подвигла все это попробовать</a>). Далее через 100 дней отправиться на изучение React. Потом Node..</p>
+        <p>В общем планов громадье, как видите.</p>
+        <p>В выходные тоже не приходиться скучать. Тренировки и поездки на разные мероприятия. Отлично помогает иногда отрываться от экрана. Вчера, например, съездили в Палмерстон Норф. Небольшой городок с интересной центральной площадью на которых происходил фестиваль шотландских оркестров, игры шотландцев и куча каких то более мелких мероприятий. Интересно в общем.</p>
+        <p>Ладно. Этот пост закончен и требуется в основном что бы был контент на страничке, а также для практики HTML и CSS на след. неделе. Блин надо бы еще скрин сделать что бы было видно как все это изменяться. Это же фронтенд все таки, интерфейсы.</p>
+        <p>15.12.2019</p>
+      </article>
+      <article id="post2">
+        <h2>Post 2, My English Practice</h2>
+        <p>Day 2.
+          Today remember basic HTML tag. I know them, but Repeat it is necessary for good memory.
+          Now I read a lot. Today my book for reading is Mortal Engine. It’s of cause not included Documentation and around IT. What is made me happy? I don’t know. But work in computing programs really relax. My main goal in English it speaks free and doesn’t have a problem with work communication.
+        </p>
+        <p>
+          Yeah. Today I learn the hard theme in JS. Databinding. It's really difficult.
+        </p>
+        <p>13.12.2019</p>
+      </article>
+      <article id="post1">
+        <h2>Пост 1, который совсем не пост</h2>
+        <p>Что уже было и что идет сейчас. Давай те на чистоту, я как бы человек закончивший вуз по информационным технологиям, отработал в индустрии довольно много в разных компаниях с разными требованиями. Но все равно чувствую себя довольно неопытным и скорее всего из-за того, что не могу нормально писать программы. ну то есть основы знаю, фундамент вроде есть. Задачки небольшие могу решать и скрипты писать. Но все равно не полноценный разработчик и все тут. Так что решено было что-нибудь все-таки освоить. Почему фронтенд да все просто, меня всегда тянуло к прекрасному, ну то есть к графике. Даже немного владею PS и 3DMAX, хотя давно в прошлом. А тут вроде два зайца одним махом. Интерфейсы, красивые картинка, программирование и веб опять-таки. JS вроде прост же в изучении (сарказм)</p>
+        <p>Ладно лирика. Что сейчас есть и делаю. <a href=".htmlacademy.ru">HTML Academia</a>, начальные интенсивы и курсы по верстке. Со скрипом, но прорываюсь через продвинутые интенсивы. Всякие мелкие вэбираны и пр. (бесполезно). Workflow. Вписался в движ по небольшому проектику <a href="hq-builder.com">HQ-builder.com</a> буду апгрейдить. Слежу за <a href="https://marinintim.com/2019/indieweb/">24 дня индивэба</a>. Хорошая штука дает практику всяких разных задач. Codewar - отработка задачек на поломать голову. <a href="https://github.com/nas5w/100-days-of-code-frontend/blob/master/README.md#html">100 дней фронтэнда</a>. Вообще этот пост написан как самостоятельная работа по этому поводу</p>
+        <p>12.12.2019</p>
+      </article>
+    </main>
   </div>
-
-  <ul>
-    <li><a href="https://css-live.ru/css/pravilnaya-shpargalka-po-css-kaskadu.html"><img class="img-in-post" src="./img/cascadelarge.png" alt="Таблица каскада"></a></li>
-
-  </ul>
-  <ol>
-    <li><a href="#post1">Пост 1 (12.12.2019)</a></li>
-    <li><a href="#post2">Пост 2 (13.12.2019)</a></li>
-    <li><a href="#post3">Пост 3 (15.12.2019)</a></li>
-    <li><a href="#post4">Пост 4 (15.12.2019)</a></li>
-  </ol>
-  <article id="post4">
-    <img class="img-in-post" src="./img/view-1.jpg" alt="Скриншот проекта. Первый этап HTML">
-    <p>Простенько но как есть.</p>
-    <p>15.12.2019</p>
-
-    <article id="post3">
-      <h2>Post 3, Выходные и зачатки планов</h2>
-      <p>Честно про часть текущих проектов я рассказал в первом посте, но не рассказал про будущие задумки. Из того что планирую как не учебный проекты. В условиях инди вэба и стодневки развить собственный сайт до живого состояния. То есть красивую визитку. (А не то что сейчас вы видите. CSS, дизайн все дела. Отдельны вытащить все верстки и учебные проекты. Что бы было что показать. Так же прикурить что то из динамики для иллюстрации скилов. Второе это попробовать сделать небольшое десктопное приложение на JS. (<a href="https://telegra.ph/Kak-bystro-sozdat-desktopnoe-prilozhenie-na-HTML-CSS-i-JavaScript-12-08">вот статья которая меня с подвигла все это попробовать</a>). Далее через 100 дней отправиться на изучение React. Потом Node..</p>
-      <p>В общем планов громадье, как видите.</p>
-      <p>В выходные тоже не приходиться скучать. Тренировки и поездки на разные мероприятия. Отлично помогает иногда отрываться от экрана. Вчера, например, съездили в Палмерстон Норф. Небольшой городок с интересной центральной площадью на которых происходил фестиваль шотландских оркестров, игры шотландцев и куча каких то более мелких мероприятий. Интересно в общем.</p>
-      <p>Ладно. Этот пост закончен и требуется в основном что бы был контент на страничке, а также для практики HTML и CSS на след. неделе. Блин надо бы еще скрин сделать что бы было видно как все это изменяться. Это же фронтенд все таки, интерфейсы.</p>
-      <p>15.12.2019</p>
-    </article>
-    <article id="post2">
-      <h2>Post 2, My English Practice</h2>
-      <p>Day 2.
-        Today remember basic HTML tag. I know them, but Repeat it is necessary for good memory.
-        Now I read a lot. Today my book for reading is Mortal Engine. It’s of cause not included Documentation and around IT. What is made me happy? I don’t know. But work in computing programs really relax. My main goal in English it speaks free and doesn’t have a problem with work communication.
-      </p>
-      <p>
-        Yeah. Today I learn the hard theme in JS. Databinding. It's really difficult.
-      </p>
-      <p>13.12.2019</p>
-    </article>
-    <article id="post1">
-      <h2>Пост 1, который совсем не пост</h2>
-      <p>Что уже было и что идет сейчас. Давай те на чистоту, я как бы человек закончивший вуз по информационным технологиям, отработал в индустрии довольно много в разных компаниях с разными требованиями. Но все равно чувствую себя довольно неопытным и скорее всего из-за того, что не могу нормально писать программы. ну то есть основы знаю, фундамент вроде есть. Задачки небольшие могу решать и скрипты писать. Но все равно не полноценный разработчик и все тут. Так что решено было что-нибудь все-таки освоить. Почему фронтенд да все просто, меня всегда тянуло к прекрасному, ну то есть к графике. Даже немного владею PS и 3DMAX, хотя давно в прошлом. А тут вроде два зайца одним махом. Интерфейсы, красивые картинка, программирование и веб опять-таки. JS вроде прост же в изучении (сарказм)</p>
-      <p>Ладно лирика. Что сейчас есть и делаю. <a href=".htmlacademy.ru">HTML Academia</a>, начальные интенсивы и курсы по верстке. Со скрипом, но прорываюсь через продвинутые интенсивы. Всякие мелкие вэбираны и пр. (бесполезно). Workflow. Вписался в движ по небольшому проектику <a href="hq-builder.com">HQ-builder.com</a> буду апгрейдить. Слежу за <a href="https://marinintim.com/2019/indieweb/">24 дня индивэба</a>. Хорошая штука дает практику всяких разных задач. Codewar - отработка задачек на поломать голову. <a href="https://github.com/nas5w/100-days-of-code-frontend/blob/master/README.md#html">100 дней фронтэнда</a>. Вообще этот пост написан как самостоятельная работа по этому поводу</p>
-      <p>12.12.2019</p>
-    </article>
-
-</body>
-
-</html>
+</body></html>

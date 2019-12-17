@@ -3,3 +3,29 @@
   border: 3px solid rgb(150, 180, 255);
 }
 
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+.container {
+ display: flex;
+  width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.side-menu {
+  width: 30%;
+}
+
+main {
+  flex: 1;
+  overflow: auto;
+}
+
+.img__avatar {
+  max-width: 100%;
+  height: 200px;
+  border-radius: 50%;
+}
